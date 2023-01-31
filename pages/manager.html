@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../styles/admin.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manager Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 id="title">Manager Page</h1>
+            <p id="description">You have Managerial Acces on this Page</p>
+        </div>
+        <div class="form">
+            <form id="survey-form">
+                <div class="form-group">
+                    <label for="name" id="name-label">Click to Clock-In</label>
+                    <!-- wide button -->
+                    <button type="button" id="yes">Clock-In</button>
+                </div>
+
+                <div class="form-group radio">
+                    <p>Assign the Truck to the Drivers Avaialable..</p>
+                    <label for="dropdown">
+                        <select id="dropdown">
+                            <option value="">Choose One</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="form-group radio">
+                    <p>Is the Truck selected?</p>
+                    <label for="definitely">
+                        <input type="radio" name="user-radio" value="definitely" id="definitely">Definitely
+                    </label>
+                    <label for="maybe">
+                        <input type="radio" name="user-radio" value="maybe" id="maybe">Maybe
+                    </label>
+                    <label for="not-sure">
+                        <input type="radio" name="user-radio" value="not-sure" id="not-sure">Not sure
+                    </label>
+                </div>
+
+                <button type="button" id="yes">Assign Truck</button>
+               
+            </form>
+        </div>
+    </div>
+</body>
+</html>
